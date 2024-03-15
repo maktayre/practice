@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 708px;
+        margin: auto;
+    }
+    .landing-page{
+        height: 1165px;
+        background: url(../img/start-screen-gradient-background.png) no-repeat center/100%;
+    }
+    .main-dog-pic{
+        width: 469px;
+        height: 493px;
+        margin-top: 122px;
+    }
+    .main-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .the-name{
+        font-size: 44px;
+        font-weight: 300;
+        letter-spacing: 0%;
+        line-height: 120%;
+        color: #fff;
+        margin-top: 60px;
+    }
+    .main-button{
+        text-align: center;
+        margin-left: 110px;
+    }
+    .shelter-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 80px;
+        height: 1048px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .pet-card.active{
+        display: none;
+    }
+    .donation{
+        height: 783px;
+        padding-top: 80px;
+    }
+    .don-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer{
+        height: 639px;
+        width: 100%;
+        background: url(../img/footer-gradient-background2.png) no-repeat center/100%;
+    }
+    .footer-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column-wrap{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+    .doggo-img{
+        margin-top: 20px;
+    }
+    .first-row{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+    .second-row{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+    .product-name{
+        font-size: 15px;
+        font-weight: 300;
+        color:#545454;
+        letter-spacing: 6%;
+        line-height: 115%;
+    }
+    .don-wrap{
+        padding-top: 20px;
+    }
+}
